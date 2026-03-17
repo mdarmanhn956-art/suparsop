@@ -1,8 +1,4 @@
-# Object file
-*.o
 
-# Ada Library Information
-*.ali
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,24 +6,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Suparsop Electronics</title>
 <style>
-/* General */
 body{margin:0;font-family:Arial,sans-serif;background:#f4f4f4;}
 a{text-decoration:none;color:inherit;}
 button{cursor:pointer;}
-
-/* Header */
 header{background:#131921;color:white;padding:15px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;}
 header h1{margin:0;font-size:24px;}
 .search-box{flex:1;margin:0 20px;}
 .search-box input{width:100%;padding:8px;border-radius:4px;border:none;font-size:16px;}
-
-/* Hero Banner */
 .hero{background:#232f3e;color:white;text-align:center;padding:60px 20px;}
 .hero h2{font-size:36px;margin:10px;}
 .hero p{font-size:20px;margin:10px;}
 .hero button{background:#f0c14b;color:#111;border:none;padding:12px 25px;font-size:18px;border-radius:4px;margin-top:15px;}
-
-/* Products Grid */
 .container{padding:40px;}
 .container h2{text-align:center;font-size:28px;margin-bottom:30px;}
 .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
@@ -38,8 +27,6 @@ header h1{margin:0;font-size:24px;}
 .card .price{font-weight:bold;margin:5px 0;color:#B12704;}
 .card .rating{color:#FFA41C;margin:5px 0;}
 .card button{background:#25D366;color:white;padding:10px 15px;border:none;border-radius:4px;margin-top:8px;}
-
-/* Footer */
 footer{background:#131921;color:white;text-align:center;padding:25px;margin-top:30px;}
 .footer-links a{margin:0 10px;color:white;font-size:16px;}
 </style>
@@ -60,7 +47,7 @@ footer{background:#131921;color:white;text-align:center;padding:25px;margin-top:
 <!-- Hero Banner -->
 <section class="hero">
 <h2>20% OFF Today!</h2>
-<p>Best Electronics for Smart Life</p>
+<p>Shop Best Electronics Online</p>
 <button onclick="window.location.href='#products'">Shop Now</button>
 </section>
 
@@ -70,7 +57,7 @@ footer{background:#131921;color:white;text-align:center;padding:25px;margin-top:
 <div class="products">
 
 <div class="card">
-<img src="https://via.placeholder.com/250" alt="Portable Water Flosser">
+<img src="https://images.unsplash.com/photo-1580910051077-1477a5b6b3bb?auto=format&fit=crop&w=250&q=80" alt="Portable Water Flosser">
 <h3>Portable Water Flosser</h3>
 <p>Powerful dental cleaning device</p>
 <p class="price">৳1,250</p>
@@ -79,7 +66,7 @@ footer{background:#131921;color:white;text-align:center;padding:25px;margin-top:
 </div>
 
 <div class="card">
-<img src="https://via.placeholder.com/250" alt="Smart LED Light">
+<img src="https://images.unsplash.com/photo-1606813903064-8d8e015be207?auto=format&fit=crop&w=250&q=80" alt="Smart LED Light">
 <h3>Smart LED Light</h3>
 <p>Energy saving smart lighting</p>
 <p class="price">৳850</p>
@@ -88,11 +75,20 @@ footer{background:#131921;color:white;text-align:center;padding:25px;margin-top:
 </div>
 
 <div class="card">
-<img src="https://via.placeholder.com/250" alt="Kitchen Electric Gadget">
+<img src="https://images.unsplash.com/photo-1588776814546-3a46d2c37f24?auto=format&fit=crop&w=250&q=80" alt="Kitchen Electric Gadget">
 <h3>Kitchen Electric Gadget</h3>
 <p>Modern smart kitchen tool</p>
 <p class="price">৳1,500</p>
 <p class="rating">⭐⭐⭐⭐☆</p>
+<a href="https://wa.me/8801318180222"><button>Order on WhatsApp</button></a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1565058513-7473ecdb16cd?auto=format&fit=crop&w=250&q=80" alt="Wireless Earbuds">
+<h3>Wireless Earbuds</h3>
+<p>High quality sound & long battery</p>
+<p class="price">৳2,000</p>
+<p class="rating">⭐⭐⭐⭐⭐</p>
 <a href="https://wa.me/8801318180222"><button>Order on WhatsApp</button></a>
 </div>
 
@@ -103,10 +99,11 @@ footer{background:#131921;color:white;text-align:center;padding:25px;margin-top:
 <footer>
 <p>Contact Us: 01318180222 | WhatsApp</p>
 <div class="footer-links">
-<a href="#">Home</a> | <a href="#">Products</a> | <a href="#">Contact</a>
+<a href="#">Home</a> | <a href="#products">Products</a> | <a href="#">Contact</a>
 </div>
 <p>© 2026 Suparsop Electronics</p>
 </footer>
 
 </body>
 </html>
+
